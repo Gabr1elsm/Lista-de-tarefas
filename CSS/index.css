@@ -28,8 +28,8 @@
     max-width: 540px;
     color: black;
     background-color: #fff;
-    margin: 100px auto 20px;  /* topo - direita e esquerda - baixo */ 
-    padding: 40px 30px 70px; /* topo - direita e esquerda - baixo */
+    margin: 100px auto 20px;  
+    padding: 40px 30px 70px; 
     border-radius: 10px;
 }
 
@@ -75,3 +75,32 @@ button{
     border-radius: 40px;
 }
 
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checado{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;   
+}
+
+ul li span:hover{
+    background: #edeef0;
+}
